@@ -1,0 +1,7 @@
+def timestreem(axs, x, y, xlabel, ylabel, color)
+axs.plot(x, y, color=color)
+axs.set_xlabel(xlabel)
+axs.set_ylabel(ylabel, color=color)
+axs.tick_params('y', colors=color)
+
+fig, ax = plt.subplots()
